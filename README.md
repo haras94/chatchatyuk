@@ -1,4 +1,4 @@
-<h1 align="center">chatchatyuk</h1>
+<h1 align="left">chatchatyuk</h1>
 <p align="center">
   <img height="100" src="https://vuejs.org/images/logo.png">
 </p>
