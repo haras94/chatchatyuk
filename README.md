@@ -32,7 +32,7 @@
 ## Screenshot
 <div class="demo">
     <div class="items">
-    	<h4 class="title-demo">Landing Page</h4>
+    	<h4 class="title-demo">Register</h4>
 	<img class="img-demo" src="https://github.com/haras94/chatchatyuk/blob/master/src/assets/ss%20web/2.PNG">   
     </div>
     <div class="items">
