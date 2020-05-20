@@ -11,6 +11,8 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Requirements](#requirements)
+- [Screenshot](#screenshot)
+- [Contact](#contact)
 
 ## Introduction
 <b>chatchatyuk</b> is a realtime web chat application to keep connect with your friends.
@@ -24,6 +26,25 @@
 * [`npm`](https://www.npmjs.com/get-npm)
 * [`Vue.js`](https://vuejs.org/)
 * [`vue-cli-service`](https://cli.vuejs.org/)
+
+<section id="screenshoot">
+	
+## Screenshot
+<div class="demo">
+    <div class="items">
+    	<h4 class="title-demo">Landing Page</h4>
+	<img class="img-demo" src="https://github.com/haras94/chatchatyuk/blob/master/src/assets/ss%20web/2.PNG">   
+    </div>
+    <div class="items">
+    	<h4 class="title-demo">Login</h4>
+		<img class="img-demo" src="https://github.com/haras94/chatchatyuk/blob/master/src/assets/ss%20web/1.PNG">  
+    </div>
+    <div class="items">
+    	<h4 class="title-demo">Home Page</h4>
+		<img class="img-demo" src="https://github.com/haras94/chatchatyuk/blob/master/src/assets/ss%20web/3.PNG">  
+    </div>
+</div>
+</section>
 
 ## Contact
 
