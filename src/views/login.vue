@@ -21,7 +21,7 @@
             <div class="h1ya">
                 <h1 class="judul">Login</h1>
                 <p class="tulisan_login">Welcome Back,Please Login</p>
-                <p class="tulisan_login1">to your account</p>
+                <!-- <p class="tulisan_login1">to your account</p> -->
             </div>
         </div>
   </div>
@@ -34,13 +34,12 @@ export default {
 </script>
 
 <style scoped>
-     .boxnya {
+    .boxnya {
     position: absolute;
     width: 417px;
     height: 80px;
-    top: 110px;
-    right: 80px;
-    background: #FFFFFF;
+    top: 60px;
+    left: 20px;
     border: 1px solid #E0E0E0;
     box-sizing: border-box;
     border-radius: 5px;
@@ -53,7 +52,7 @@ export default {
     text-align: left;
     top: -70px;
     position: absolute;
-    right: 500px;
+    right: 280px;
 }
 
 .judul {
@@ -64,7 +63,8 @@ export default {
     font-family: 'Montserrat', sans-serif;
     font-size: 64px;
     line-height: 83px;
-    color: #424242;
+    color: #1fbf5f;
+    left: 20px;
 }
 
 .tulisan_login {
@@ -98,11 +98,10 @@ export default {
     /*meletakkan form ke kanan*/
     margin: 80px auto;
     padding: 30px 20px;
-    float: right;
     border: black;
     position: relative;
     box-shadow: 2px;
-    top: 100px;
+    top: 180px;
 }
 
 .checkbox {
@@ -139,7 +138,7 @@ export default {
 .formtombol {
     position: absolute;
     top: 180px;
-    left: 5px;
+    left: 120px;
 }
 
 a{
@@ -156,25 +155,27 @@ a{
 }
 
 .tombol_login {
-    background: #141414;
-    color: white;
+    background: rgb(255, 255, 255);
+    color: #6c22bf;
     font-size: 11pt;
     width: 100px;
     border: none;
     border-radius: 3px;
     padding: 10px 20px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .tombol_signup {
-    background: #b5aba8;
-    color: #e8e4e3;
+    background: rgb(255, 255, 255);
+    color: #6c22bf;
     font-size: 11pt;
     width: 100px;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .a{

@@ -1,12 +1,16 @@
 <template>
   <div>
+       <!-- <div class="user-reply">
+      </div> -->
       <div class="main-page">
           <div class="text-writing">
               <form>
                   <input class="chatting-text" type="text" placeholder="masukan pesan...">
               </form>
       </div>
-      <div class="buble-chat">
+      <div class="buble-chat"><p class="text-one"></p> halo!
+      </div>
+      <div class="buble-chatt"><p class="text-two"></p> halo iya,
      </div>
       </div>
       <div class="beside-square">
@@ -20,6 +24,7 @@
           <div class="mother-bbu">
           <div class="bubble-user">
           </div>
+          <p class="user">Joko</p>
           </div>
       </div>
       </div>
@@ -120,10 +125,10 @@ export default {
     }
 
     .bubble-user{
-        background: red;
+        background: #1fbf5f;
         box-sizing: border-box;
-        width: 400px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
         position: relative;
         display: flex;
         justify-content: space-between;
@@ -146,17 +151,37 @@ export default {
         overflow-y: scroll;
     }
 
-     .buble-chat{
-        height: 100px;
-        width: 150px;
+     .buble-chatt{
+        height: 60px;
+        width: 60px;
         position: relative;
-        background: whitesmoke;
-        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+        background: #f2f7f4;
         display: flex;
-        border: 3px solid blue;
+        border: 3px solid #f2f7f4;
         z-index: 1;
-        right: 100px;
+        right: 180px;
+        margin-top: 20px;
+        border-radius: 6px;
+        align-items: center;
+    }
+
+      .buble-chat{
+        height: 60px;
+        width: 60px;
+        position: relative;
+        background: #1cd666;
+        display: flex;
+        border: 3px solid #1cd666;
+        z-index: 1;
+        right: 400px;
         margin-top: 300px;
         border-radius: 6px;
+        align-items: center;
+    }
+
+    .user{
+        margin-top: 50px;
+        right: 300px;
+        position: relative;
     }
 </style>

@@ -21,7 +21,7 @@
             <h1 class="judulnya"> Register</h1>
             <p class="tulisan_register">Welcome Back,Please Register</p>
 </div>
-  </div>
+</div>
 </template>
 
 <script>
@@ -33,7 +33,7 @@ export default {
 <style scoped>
     .h1ya{
         position: relative;
-        right: 30px;
+        right: 280px;
         top: 80px;
     }
 
@@ -41,7 +41,7 @@ export default {
     position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-size: 64px;
-    color: #424242;
+    color: #1fbf5f;
     right: 240px;
     top: 100px;
 }
@@ -51,7 +51,7 @@ export default {
     position: absolute;
     width: 388px;
     /* height: 110px; */
-    right: 80px;
+    right: 100px;
     top: 185px;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
@@ -74,15 +74,15 @@ export default {
 
 .kotak_register{
     width: 350px;
-    background: white;
+    /* background: #6c22bf; */
     /*meletakkan form ke kanan*/
     margin: 80px auto;
     padding: 30px 20px;
     border: black;
     position: absolute;
     font-family: 'Montserrat', sans-serif;
-    right: 150px;
-    top: 200px;
+    right: 450px;
+    top: 220px;
     float: right;
 }
 .kotak_register h1{
@@ -104,8 +104,8 @@ export default {
 .formtombol{
     position: absolute;
     bottom: 0px;
-    left: 18px;
-    top: 250px;
+    left: 100px;
+    top: 230px;
 
 }
 
@@ -115,23 +115,23 @@ export default {
     padding: 10px;
     font-size: 11pt;
     margin-bottom: 20px;
-    float: right;
 }
 
 .tombol_signup{
-    background: #141414;
-    color: white;
+    background: rgb(255, 255, 255);
+    color: #6c22bf;
     font-size: 11pt;
     width: 100px;
     border: none;
     border-radius: 3px;
     padding: 10px 20px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .tombol_login{
-    background: #b5aba8 ;
-    color: #e8e4e3;
+    background: rgb(255, 255, 255);
+    color: #6c22bf;
     font-size: 11pt;
     width: 100px;
     border: none;
@@ -139,5 +139,6 @@ export default {
     padding: 10px 20px;
     text-decoration: none;
     right: 50px;
+    font-weight: bold;
 }
 </style>
